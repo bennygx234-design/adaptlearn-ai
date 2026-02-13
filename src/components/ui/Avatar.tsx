@@ -31,7 +31,7 @@ function Avatar({
 
   const initials = fallback || alt.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2);
 
-  const baseClasses = ;
+  const baseClasses = `${sizes[size]} rounded-full overflow-hidden flex items-center justify-center bg-purple-500/20 text-purple-300 font-medium ${className}`;
 
   if (src) {
     return (
