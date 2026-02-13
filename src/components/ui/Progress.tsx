@@ -29,10 +29,10 @@ function Progress({
           <span>{Math.round(percentage)}%</span>
         </div>
       )}
-      <div className={}>
+      <div className={`w-full ${sizes[size]} bg-white/10 rounded-full overflow-hidden`}>
         <div
           className="h-full bg-gradient-to-r from-purple-600 to-purple-400 rounded-full transition-all duration-300"
-          style={{ width:  }}
+          style={{ width: `${percentage}%` }}
         />
       </div>
     </div>
