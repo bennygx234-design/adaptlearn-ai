@@ -47,7 +47,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         )}
         <div className="relative">
           {Icon && (
-            <div className={}>
+            <div className={`absolute ${iconPosition === 'left' ? 'left-3' : 'right-3'} top-1/2 -translate-y-1/2 text-grey-500`}>
               <Icon size={18} />
             </div>
           )}
